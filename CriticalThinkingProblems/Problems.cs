@@ -10,26 +10,29 @@ namespace CriticalThinkingProblems
     {
         //member variables 
 
+        
+
         //constructor
 
         //member variables 
 
         public void Run()
         {
-            ForLoop();
+            ForLoop("Hello World");
         }
 
-        public void ForLoop()
+        public void ForLoop(string word)
         {
-            Console.WriteLine("What number would you like to start the loop?");
-            
+            Console.WriteLine();
+           
 
-            for (int i = Int32.Parse(Console.ReadLine()); i <= 5; i++)
+            for (int i = 0; i < word.Length; i++)
             {
                 Console.WriteLine(i);
             }
             Console.ReadLine();
         }
+        
 
         public void WhileLoop()
         {
