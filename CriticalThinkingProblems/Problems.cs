@@ -14,17 +14,27 @@ namespace CriticalThinkingProblems
 
         //member variables 
 
-            public void Run()
+        public void Run()
         {
             ForLoop();
         }
+
         public void ForLoop()
         {
-            for (int i = 9; i >= 0; i--)
+            Console.WriteLine("What number would you like to start the loop?");
+            
+
+            for (int i = Int32.Parse(Console.ReadLine()); i <= 5; i++)
             {
                 Console.WriteLine(i);
             }
             Console.ReadLine();
         }
+
+        public void WhileLoop()
+        {
+
+        }
+
     }
 }
