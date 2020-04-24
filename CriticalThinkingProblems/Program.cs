@@ -10,11 +10,8 @@ namespace CriticalThinkingProblems
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i >=5; i ++)
-            {
-                Console.WriteLine(i);
-                Console.ReadLine();
-            }
+            Problems problems  = new Problems();
+            problems.Run();
         }
     }
-}
+}//C:\Users\smith\Desktop\DevCodeCamp\Projects\Critical_Thinking_Problems\Program.cs
