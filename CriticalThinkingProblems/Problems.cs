@@ -23,14 +23,14 @@ namespace CriticalThinkingProblems
 
         public void ForLoop(string word)
         {
-            Console.WriteLine();
+            
            
-
             for (int i = 0; i < word.Length; i++)
             {
                 Console.WriteLine(i);
+                Console.ReadLine();
             }
-            Console.ReadLine();
+            
         }
         
 
