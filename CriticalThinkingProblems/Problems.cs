@@ -33,7 +33,7 @@ namespace CriticalThinkingProblems
 
         public void WhileLoop()
         {
-            int counter = 5;
+            int counter = Int32.Parse(Console.ReadLine());
             while (counter < 25)
             {
                 counter++;
