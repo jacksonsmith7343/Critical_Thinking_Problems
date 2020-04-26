@@ -8,19 +8,14 @@ namespace CriticalThinkingProblems
 {
     class Problems
     {
-        //member variables 
-
-        
-
-        //constructor
-
-        //member variables 
-
+       
         public void Run()
         {
-            ForLoop("Hello World");
-            //WhileLoop();
+            //ForLoop("Hello World");
+            WhileLoop();
         }
+
+       
 
         public void ForLoop(string word)
         {
@@ -29,7 +24,7 @@ namespace CriticalThinkingProblems
             for (int i = 0; i< word.Length; i ++)
             {
                 if(i %3 == 0)
-                Console.WriteLine(word[i]);
+                Console.Write(word[i]);
             }
             Console.ReadLine();
 
@@ -42,8 +37,11 @@ namespace CriticalThinkingProblems
             while (counter < 25)
             {
                 counter++;
+                Console.WriteLine(counter);
             }
             Console.ReadLine();
+
+
         }
 
     }
