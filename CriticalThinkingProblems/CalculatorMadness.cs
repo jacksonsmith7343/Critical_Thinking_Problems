@@ -17,24 +17,31 @@ namespace CriticalThinkingProblems
 
         public void RunCalculations()
         {
-            int result = AddTwoNumbers(8, 40);
-            Console.WriteLine(result);
+            int result = MultiplyNumbers(40 , 35);
+            int result2 = DivideNumbers(result , 4);
+            int result3 = AddTwoNumbers(6 , 5);
+            int result4 = SubtractNumbers(result3, 350);
+            int result5 = AddTwoNumbers(result4, 4);
+            Console.WriteLine(result5);
             Console.ReadLine();
         }
 
-        public void SubtractNumbers()
+        public int SubtractNumbers(int numberOne , int numberTwo)
         {
-
+            int sum = numberOne - numberTwo;
+            return sum;
         }
 
-        public void MultiplyNumbers()
+        public int MultiplyNumbers(int numberOne, int numberTwo)
         {
-
+            int sum = numberOne * numberTwo;
+            return sum;
         }
 
-        public void DivideNumbers()
+        public int DivideNumbers(int numberOne, int numberTwo)
         {
-
+            int sum = numberOne / numberTwo;
+            return sum;
         }
        
     }
