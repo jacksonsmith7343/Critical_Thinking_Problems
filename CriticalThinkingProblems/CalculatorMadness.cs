@@ -8,18 +8,35 @@ namespace CriticalThinkingProblems
 {
     class CalculatorMadness
     {
-        public int AddTwoNumbers(int numberOne ,int numberTwo)
+        
+        public int AddTwoNumbers(int numberOne , int numberTwo)
         {
-            int result;
-            result = numberOne + numberTwo;
-            return result;
+            int sum = numberOne + numberTwo;
+            return sum;
         }
 
         public void RunCalculations()
         {
-            AddTwoNumbers(5,7);
+            int result = AddTwoNumbers(8, 40);
+            Console.WriteLine(result);
+            Console.ReadLine();
         }
-        
+
+        public void SubtractNumbers()
+        {
+
+        }
+
+        public void MultiplyNumbers()
+        {
+
+        }
+
+        public void DivideNumbers()
+        {
+
+        }
+       
     }
 }
 //Console.WriteLine("Enter first number to add:");
