@@ -12,7 +12,7 @@ namespace CriticalThinkingProblems
         public void Run()
         {
             //ForLoop("Hello World");
-            WhileLoop();
+            //WhileLoop();
         }
 
        
@@ -34,15 +34,15 @@ namespace CriticalThinkingProblems
         public void WhileLoop()
         {
             int counter = Int32.Parse(Console.ReadLine());
-            while (counter < 25)
+            while (counter < 60)
             {
-                counter++;
-                Console.WriteLine(counter);
+                if (counter != 42)
+                {
+                    Console.WriteLine("Please enter the number 42");
+                }
             }
-            Console.ReadLine();
-
-
         }
+
 
     }
 }
