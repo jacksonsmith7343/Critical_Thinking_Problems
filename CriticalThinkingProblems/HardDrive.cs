@@ -10,5 +10,14 @@ namespace CriticalThinkingProblems
     {
         public double TotalStorage;
         public double AvailableStorage;
+        public List<Application> ApplicationsInHardDrive;
+
+        public HardDrive()
+        {
+
+            HardDrive hardDrive = new HardDrive();
+        }
+        
+        
     }
 }

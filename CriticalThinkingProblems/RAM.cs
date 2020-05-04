@@ -10,5 +10,10 @@ namespace CriticalThinkingProblems
     {
         public double TotalGigabytes;
         public string Brand;
+
+        public RAM()
+        {
+            RAM ram = new RAM();
+        }
     }
 }
