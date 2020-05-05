@@ -11,18 +11,18 @@ namespace CriticalThinkingProblems
         //member variables (has a)
         public string manufacturer;
         public CPU processor;
+        public RAM temporaryMemory;
+        public HardDrive storage;
         public GPU graphics;
-        public Application requiredStorage;
-        public Application requiredRAM;
-        public List<Application> ApplicationsInHardDrive;
 
         //constructor (spawner)
         public MotherBoard(string manufacturer, RAM ram, CPU cpu, HardDrive hardDrive, GPU gpu)
         {
-            manufacturer = manufacturer;
+            temporaryMemory = ram;
             processor = cpu;
+            storage = hardDrive;
             graphics = gpu;
-            var valueOfAvailableStorage = hardDrive.AvailableStorage;
+            
             
 
         }

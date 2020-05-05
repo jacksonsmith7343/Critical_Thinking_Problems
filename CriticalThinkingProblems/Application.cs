@@ -13,15 +13,15 @@ namespace CriticalThinkingProblems
         public string applicationType;
         public double requiredRAM;
         public double requiredStorage;
-        public double requiredEffectiveMemory;
+        
 
         //constructor (spawner)
-        public Application()
+        public Application(double requiredRAM, double requiredStorage)
         {
             applicationName = "Slack";
             applicationType = "Messaging service";
-            requiredRAM = 4.0; //In Gigabytes
-            requiredStorage = 0.512; //In Gigabytes
+            this.requiredRAM = requiredRAM; //In Gigabytes
+            this.requiredStorage = requiredStorage ; //In Gigabytes
         }
 
 

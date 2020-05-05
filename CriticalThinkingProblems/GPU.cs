@@ -13,7 +13,12 @@ namespace CriticalThinkingProblems
         public double effectiveMemory;
 
         //constructor (spawner)
-
+        public GPU(double effectiveMemory)
+        {
+            this.effectiveMemory = effectiveMemory;
+            manufacturer = "GeForce";
+        }
+       
 
         //member methods (can do)
     }

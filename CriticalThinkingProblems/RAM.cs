@@ -15,9 +15,10 @@ namespace CriticalThinkingProblems
 
 
         //constructor (spawner)
-        public RAM()
+        public RAM(double totalGigabytes)
         {
-            
+            this.totalGigabytes = totalGigabytes;
+            brand = "Corsair";
         }
     }
 }

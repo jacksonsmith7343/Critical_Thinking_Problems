@@ -10,13 +10,15 @@ namespace CriticalThinkingProblems
     {
         //member variables (has a)
         public string manufacturer;
-        public GPU effectiveMemory;
+        public string name;
+        
 
 
         //constructor (spanwer)
         public CPU()
         {
-            GPU gpu = new GPU();
+            manufacturer = "Intel";
+            
         }
 
         //member methods (can do)
@@ -28,12 +30,12 @@ namespace CriticalThinkingProblems
 
         //Game class has a variable RequiredEffectiveMemory
 
-        public bool CheckRequirements(Application application, HardDrive hardDrive, RAM ram)
+        public bool CheckRequirements(Application application, HardDrive hardDrive, RAM ram, GPU gpu)
         {
             bool installApplication = false;
 
           
-            if (ram.temporaryMemory > application.requiredRAM && hardDrive.totalStorage > application.requiredStorage || graphics.effectiveMemory > requiredEffectiveMemory)
+            if (ram.temporaryMemory > application.requiredRAM && hardDrive.totalStorage > application.requiredStorage || gpu.effectiveMemory > application.requiredEffectiveMemory)
             {
                 
                 ProcessInstall(application, hardDrive, ram);

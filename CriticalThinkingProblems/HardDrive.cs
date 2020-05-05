@@ -10,13 +10,17 @@ namespace CriticalThinkingProblems
     {
         //member variables (has a)
         public double totalStorage;
-        public double AvailableStorage;
+        public double availableStorage;
         public List<Application> ApplicationsInHardDrive;
         
-
+        
         //constructor (spawner)
-        public HardDrive()
+        public HardDrive(double totalStorage, double availableStorage)
         {
+
+            this.availableStorage = availableStorage;
+            this.totalStorage = totalStorage;
+
             ApplicationsInHardDrive = new List<Application>();
             
         }

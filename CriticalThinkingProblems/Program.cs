@@ -13,8 +13,8 @@ namespace CriticalThinkingProblems
             CalculatorMadness calculatorMadness = new CalculatorMadness();
             calculatorMadness.RunCalculations();
             
-            //Problems problems  = new Problems();
-            //problems.Run();
+            Problems problems  = new Problems();
+            problems.Run();
         }
     }
-}//C:\Users\smith\Desktop\DevCodeCamp\Projects\Critical_Thinking_Problems\Program.cs
+}
