@@ -8,7 +8,13 @@ namespace CriticalThinkingProblems
 {
     class GPU
     {
-        public string Manufacturer;
-        public double EffectiveMemory;
+        //member variables (has a)
+        public string manufacturer;
+        public double effectiveMemory;
+
+        //constructor (spawner)
+
+
+        //member methods (can do)
     }
 }

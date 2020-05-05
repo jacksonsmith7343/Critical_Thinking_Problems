@@ -8,14 +8,17 @@ namespace CriticalThinkingProblems
 {
     class HardDrive
     {
-        public double TotalStorage;
+        //member variables (has a)
+        public double totalStorage;
         public double AvailableStorage;
         public List<Application> ApplicationsInHardDrive;
+        
 
+        //constructor (spawner)
         public HardDrive()
         {
-
-            HardDrive hardDrive = new HardDrive();
+            ApplicationsInHardDrive = new List<Application>();
+            
         }
         
         

@@ -8,12 +8,16 @@ namespace CriticalThinkingProblems
 {
     class RAM
     {
-        public double TotalGigabytes;
-        public string Brand;
+        //member variables (has a)
+        public double totalGigabytes;
+        public string brand;
+        public double temporaryMemory;
 
+
+        //constructor (spawner)
         public RAM()
         {
-            RAM ram = new RAM();
+            
         }
     }
 }

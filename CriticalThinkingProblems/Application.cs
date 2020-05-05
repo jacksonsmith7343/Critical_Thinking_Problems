@@ -6,16 +6,18 @@ using System.Threading.Tasks;
 
 namespace CriticalThinkingProblems
 {
-    class Application
+    public abstract class Application
     {
+        //member variables (has a)
         public string applicationName;
         public string applicationType;
         public double requiredRAM;
         public double requiredStorage;
+        public double requiredEffectiveMemory;
 
+        //constructor (spawner)
         public Application()
         {
-            Application application = new Application();
             applicationName = "Slack";
             applicationType = "Messaging service";
             requiredRAM = 4.0; //In Gigabytes

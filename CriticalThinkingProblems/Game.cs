@@ -6,19 +6,9 @@ using System.Threading.Tasks;
 
 namespace CriticalThinkingProblems
 {
-    class Computer
+    class Game : Application
     {
-        //member variables (has a)
+        
 
-
-
-        //constructor (spawner)
-        public Computer()
-        {
-
-        }
-
-
-        //member methods (can do)
     }
 }
